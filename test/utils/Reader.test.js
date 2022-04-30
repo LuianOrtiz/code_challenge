@@ -6,7 +6,6 @@ describe(`Testint reader file`, () => {
     test(` 1. read json file`, () => {
         const students = "visualpartners.json"
         const fileStudents = Reader.readJsonFile(students);
-        console.log(fileStudents);
         expect(fileStudents).not.toBeNull();
     });
 
