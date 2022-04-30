@@ -1,6 +1,6 @@
 {
   "name": "code_challenge",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Code challenge para el programa de launchX",
   "main": "index.js",
   "scripts": {
