@@ -4,7 +4,6 @@ describe(`Test to Student Controller`, () => {
 
     test(`1. get All Students`, () => {
         const students = StudentController.getAllStudents();
-        
         expect(students).not.toBeUndefined();
     });
 

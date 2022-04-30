@@ -6,7 +6,7 @@ describe(` Test to Student Service`, () => {
     test(`1. get all Students`, () => {
         const students = [ {name: "Angel", certificate: true}, {name: "Maria", certificate: false }];
         const objStudent = StudentService.allStudents(students);
-        expect(objStudent).toBeInstanceOf(Student);
+        expect(objStudent[0].name).toBe("Angel");
     });
 
     test(`2. get the email of all students have certification`, () => {
